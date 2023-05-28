@@ -7,7 +7,7 @@
         "start": "node index.js",
         "dev": "./node_modules/.bin/nodemon index.js",
         "dev:debug": "./node_modules/.bin/nodemon --inspect index.js",
-        "generate-keypair": "node generate-keypair.js",
+        "generate-keypair": "node generateKeypair.js",
         "swagger-autogen": "node swagger.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
