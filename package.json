@@ -1,0 +1,47 @@
+{
+    "name": "fluxo-caixa-api",
+    "version": "1.0.0",
+    "description": "fluxo-caixa-api",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "./node_modules/.bin/nodemon index.js",
+        "dev:debug": "./node_modules/.bin/nodemon --inspect index.js",
+        "generate-keypair": "node generate-keypair.js",
+        "swagger-autogen": "node swagger.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/MatheusWebDev/fluxo-caixa-api.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/MatheusWebDev/fluxo-caixa-api/issues"
+    },
+    "homepage": "https://gitlab.com/MatheusWebDev/fluxo-caixa-api#README",
+    "dependencies": {
+        "basic-ftp": "^4.6.6",
+        "bcryptjs": "^2.4.3",
+        "cookie-parser": "~1.4.4",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "debug": "~2.6.9",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.13.9",
+        "morgan": "~1.9.1",
+        "multer": "^1.4.3",
+        "passport": "^0.5.0",
+        "passport-jwt": "^4.0.0",
+        "mongodb-memory-server": "^8.12.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22",
+        "swagger-autogen": "^2.23.1",
+        "swagger-ui-express": "^4.6.3"
+    }
+}
